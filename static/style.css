@@ -1,0 +1,178 @@
+/* --- Styles Généraux --- */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    /* Empêche le scroll horizontal causé par la sidebar cachée */
+    overflow-x: hidden; 
+}
+
+/* --- Styles pour la Sidebar Coulissante --- */
+.sidebar {
+    /* Positionnement et dimensions */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* Apparence */
+    background-color: #2c3e50;
+    color: white;
+
+    /* Logique de l'animation */
+    transform: translateX(-100%); /* Initialement cachée à gauche */
+    transition: transform 0.3s ease-in-out; /* Animation fluide */
+    z-index: 1000; /* S'assure qu'elle est au-dessus de tout */
+}
+
+/* Classe ajoutée par JavaScript pour montrer la sidebar */
+.sidebar.open {
+    transform: translateX(0);
+}
+
+/* Style des boutons dans la sidebar */
+.sidebar button {
+    display: block; /* Pour qu'ils prennent toute la largeur */
+    width: 100%;
+    background-color: #4a6fa5; /* Couleur plus visible */
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-bottom: 10px; /* Espace entre les boutons */
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    text-align: left; /* Aligne le texte à gauche */
+}
+
+/* --- Styles pour le Contenu Principal --- */
+.main-content {
+    padding: 20px;
+    /* Animation pour le décalage */
+    transition: margin-left 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#toggle-menu-btn {
+    /* Dit à CE bouton (et seulement lui) de ne pas s'étirer */
+    align-self: flex-start; 
+    cursor: pointer;
+    font-size: 1.05em;
+    border-radius: 6px;
+    background-color: white;
+    border: transparent;
+    margin-bottom: 2px;
+    box-shadow: 2px 2px 7px;
+}
+
+/* Classe ajoutée par JavaScript pour décaler le contenu */
+.main-content.shifted {
+    margin-left: 250px; /* Doit correspondre à la largeur de la sidebar */
+}
+
+/* --- Organisation de la Zone de Chat --- */
+.chat-area {
+    display: flex;
+    flex-direction: column;
+    /* Calcule la hauteur pour remplir l'écran moins le padding */
+    flex-grow: 1;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px;
+    flex-grow: 1; /* Prend tout l'espace vertical disponible */
+    overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+    border: 1px solid #ddd;
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* --- Styles des Composants (Input, Select) --- */
+.lien_select {
+    margin-bottom: 12px;
+}
+
+.lien_select select {
+    font-size: 1.12em;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.input-wrapper input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background: transparent;
+}
+
+.input-wrapper .input-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.input-wrapper button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 5px;
+}
+.message-bot {
+  font-family: Arial, sans-serif;
+  font-size: 1.15em;
+  border: 1px solid #ccc;
+  background-color: #59ddc7;
+  display: flex;
+  align-self: flex-start;
+  padding: 8px 12px;
+  border-radius: 12px 12px 12px 0;
+  max-width: 70%;
+}
+
+.message-user {
+  font-family: Arial, sans-serif;
+  font-size: 1.15em;
+  background-color: #0084ff;
+  color: white;
+  display: flex;
+  align-self: flex-end;
+  padding: 8px 12px;
+  border-radius: 12px 12px 0 12px;
+  max-width: 70%;
+}
+.lien{
+  text-decoration: none;
+}
+.search-button{
+    transition: transform 400ms;
+}
+.search-button:active{
+    transform: scale(0.80);
+}

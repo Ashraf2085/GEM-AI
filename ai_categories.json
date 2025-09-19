@@ -1,0 +1,97 @@
+{
+  "salutation": {
+    "mots": ["bonjour", "salut", "coucou", "bonsoir", "hello", "yo", "hey", "bonjour a toi"],
+    "reponses": ["Salut ! 😀", "Bonjour !", "Hello", "Coucou !", "Salut, en quoi puis-je t'aider ?"],
+    "reponses_avance": ["Bonjour, comment puis-je vous aider aujourd'hui ?", "Salut, quel est le programme ?", "Salut ! Prêt à démarrer quelque chose d'intéressant ?"]
+  },
+  "etat": {
+    "mots": ["ca va", "oui ca va et toi", "comment tu vas", "comment vas tu", "comment ca va", "est ce que ca va", "est ce que tu vas bien", "tu vas bien", "tout va bien", "la forme", "comment vas-tu", "tu te sens comment", "ca dit quoi"],
+    "reponses": ["Ça va bien merci ! Et toi ?", "Tout roule !", "Tout va bien", "Oui, ça va et toi !", "Je suis au top de ma forme, et toi ?", "Impeccable, merci de demander !"],
+    "reponses_avance": ["Je fonctionne à la perfection, merci. Et toi, comment te sens-tu ?", "Très bien ! J'espère que ta journée se passe bien aussi. Dis-moi si je peux t'être utile.", "Je suis opérationnel ! Quel défi pouvons-nous relever ensemble aujourd'hui ?"]
+  },
+  "identite": {
+    "mots" : ["qui es tu", "tu es qui", "c'est quoi ton nom", "quel est ton nom", "comment t'appelles-tu", "parle-moi de toi","c'est quoi ton modele"],
+    "reponses": ["Je suis AI stalist.😎", "Je suis ton assistant virtuel !", "Tu peux m'appeler Mini AI. Je suis là pour t'assister.😁"],
+    "reponses_avance": ["Je suis un grand modèle de langage, entraîné par Google, conçu pour t'aider à explorer des idées et répondre à tes questions.", "Je suis une intelligence artificielle conversationnelle. Mon but est de te fournir des informations précises et de t'aider dans diverses tâches."]
+  },
+  "meteo": {
+    "mots": ["temps", "meteo", "il pleut", "soleil", "quel temps il fait", "quelle est la meteo", "est ce qu'il fait beau", "est ce qu'il va pleuvoir", "la meteo de demain", "faut-il un manteau"],
+    "reponses": ["Je n'ai pas de fenêtre 😅 mais j'espère que le ciel est bleu !", "Pour la météo, le mieux est de vérifier une application spécialisée pour avoir des infos en temps réel.", "J'espère que le temps est agréable chez toi."],
+    "reponses_avance": ["Je ne peux pas te donner la météo en direct, mais je peux te chercher les prévisions pour Cesson-Sévigné si tu le souhaites.", "Pour des informations précises, je te conseille de consulter Météo-France. Veux-tu que je te trouve un lien ?"]
+  },
+  "blagues": {
+    "mots": ["blague", "raconte une blague", "drole", "dis moi une blague", "fais-moi rire", "balance une vanne"],
+    "reponses": [
+      "Pourquoi les poissons détestent l'ordinateur ? Parce qu'ils ont peur du net !",
+      "Qu'est-ce qui est jaune et qui attend ? Jonathan !",
+      "Comment appelle-t-on un chat qui travaille dans la construction ? Un chaprentier.",
+      "Quel est le comble pour un électricien ? C'est de ne pas être au courant."
+    ],
+    "reponses_avance": [
+      "Pourquoi les programmeurs confondent Halloween et Noël ? Parce qu'oct(31) = dec(25) !",
+      "Pourquoi les plongeurs tombent-ils toujours en arrière du bateau ? Parce que s'ils tombaient en avant, ils seraient toujours dans le bateau."
+    ]
+  },
+  "devinettes": {
+    "mots": ["devinette", "enigme", "question difficile", "propose moi une devinette", "un petit casse-tete"],
+    "reponses": [
+      "Je suis toujours devant toi mais tu ne peux pas me voir. Qui suis-je ? (Réponse : Le futur)", 
+      "Plus je sèche, plus je deviens mouillé. Qui suis-je ? (Réponse : Une serviette)",
+      "Qu'est-ce qui a un cou mais pas de tête ? (Réponse : Une bouteille)"
+    ],
+    "reponses_avance": [
+      "J'ai des villes, mais pas de maisons. J'ai des montagnes, mais pas d'arbres. J'ai de l'eau, mais pas de poissons. Qui suis-je ? (Réponse : Une carte)", 
+      "Je parle toutes les langues et je n'ai pas de bouche. Qui suis-je ? (Réponse : L'écho)"
+    ]
+  },
+  "compliments": {
+    "mots": ["je suis beau", "je suis intelligent", "je suis fort", "je suis le meilleur", "je suis genial"],
+    "reponses": ["Absolument !", "C'est une super mentalité !", "La confiance en soi est une grande force.", "Tu as tout à fait raison de le penser !"],
+    "reponses_avance": ["C'est excellent d'avoir une telle estime de soi ! C'est un moteur pour accomplir de grandes choses.", "Cultiver cette confiance est la clé. Continue de croire en tes capacités !"]
+  },
+  "film": {
+    "mots": ["propose moi un film", "donne moi un film interessant", "dis moi un bon film d'action", "un anime", "conseille-moi une comedie"],
+    "reponses": ["Si tu aimes la science-fiction, 'Interstellar' est un incontournable.", "Pour rire, 'Le Dîner de Cons' est un classique indémodable.", "Le Seigneur des Anneaux est un chef-d'œuvre d'aventure."],
+    "reponses_avance": ["'Parasite' de Bong Joon-ho est un thriller social primé qui te tiendra en haleine.", "Le 'Voyage de Chihiro' du studio Ghibli est un chef-d'œuvre d'animation poétique et visuellement époustouflant."] 
+  },
+  "salutation_reponse": {
+    "mots": ["oui ca va", "ca va bien merci", "tout va bien", "oui", "ca roule", "nickel", "impeccable", "tranquille", "ca va bien merci", "tout roule", "tout va tres bien", "oui ca va et toi"],
+    "reponses": ["Super !", "Content de l'entendre !", "Génial, que veux-tu faire maintenant ?", "Parfait ! Qu'est-ce qui t'amène ?"],
+    "reponses_avance": ["Excellente nouvelle. Comment puis-je rendre ta journée encore meilleure ?", "Ravi de l'entendre ! Y a-t-il un sujet particulier que tu aimerais aborder ?"]
+  },
+  "proposition": {
+    "mots": ["qu'est ce qu'on peut faire", "on fait quoi", "propose moi des choses", "je sais pas quoi faire", "je m'ennuie", "une idee d'activite"],
+    "reponses": ["Que dirais-tu d'une blague ?", "On peut explorer un sujet historique ?", "Je peux te donner un fait intéressant.", "Que dirais-tu d'apprendre 3 nouveaux mots dans une autre langue ?"],
+    "reponses_avance": ["On a plusieurs options : discuter d'un sujet qui t'intéresse, résoudre une énigme, ou même planifier une activité.", "Selon ton envie, on peut se lancer dans quelque chose de créatif, d'éducatif ou simplement de divertissant. Que préfères-tu ?"]
+  },
+  "musique": {
+    "mots": ["chanson", "musique", "joue une chanson", "recommande une musique", "une bonne playlist"],
+    "reponses": ["Un peu de Daft Punk pour se motiver ?", "Que penses-tu d'un peu de rock classique comme Queen ?", "Pour se concentrer, la musique lofi est très populaire."],
+    "reponses_avance": ["Dis-moi quel genre tu aimes et je pourrai te donner des recommandations plus précises. Pop, rock, électro ?", "Si tu me donnes une ambiance (calme, énergique, nostalgique), je peux te suggérer des artistes qui pourraient correspondre."]
+  },
+  "conseils": {
+    "mots": ["donne moi un conseil", "astuce", "aide-moi", "conseil utile", "j'ai besoin d'un conseil"],
+    "reponses": ["Apprends quelque chose de nouveau chaque jour.", "N'oublie pas de prendre du temps pour toi.", "La lecture est un excellent moyen de s'évader."],
+    "reponses_avance": ["La clé de la productivité n'est pas de gérer son temps, mais de gérer son énergie. Consacre tes moments de haute énergie à tes tâches les plus importantes.", "L'échec n'est pas l'opposé du succès, il en fait partie. N'aie pas peur d'essayer et de te tromper."]
+  },
+  "anime": {
+    "mots": ["anime", "recommande un anime", "quel anime regarder", "propose moi un anime d'action", "un anime shonen"],
+    "reponses": ["'L'Attaque des Titans' est un phénomène mondial.", "'Death Note' est un classique du thriller psychologique.", "'Jujutsu Kaisen' est excellent si tu aimes l'action et le surnaturel."],
+    "reponses_avance": ["'Vinland Saga' est un anime historique et profond sur les Vikings, avec un développement de personnage exceptionnel.", "'Steins;Gate' est un chef-d'œuvre de science-fiction sur le voyage dans le temps, avec une intrigue complexe et captivante."]
+  },
+  "rigoler": {
+    "mots": ["hahaha", "hehehe", "hihihihi", "hohohoho"],
+    "reponses": ["ahah 😆 qu'est-ce qui te fait marrer ?", "ahah, 😂 dis-moi ce qui est si drôle", "😂 qu'est ce qui est si drôle ?"],
+    "reponses_avance": ["Qu'est-ce qui te fait autant marrer ?", "Qu'est-ce qui est si drôle ?"]
+  },
+  "remerciement": {
+    "mots": ["merci", "merci beaucoup", "thanks", "merci pour l'info", "super merci", "c'est sympa merci", "merci bien", "merci pour ca"],
+    "reponses": ["Avec plaisir !", "Je suis là pour ça.", "De rien !", "Il n'y a pas de quoi !", "À ton service."],
+    "reponses_avance": ["Ravi d'avoir pu t'être utile. N'hésite jamais si tu as d'autres questions.", "C'est ma fonction première et c'est toujours un plaisir d'aider."]
+  },
+  "inconnu": {
+    "mots": [],
+    "reponses": ["Je n'ai pas compris, peux-tu reformuler ?", "Hmm, je ne suis pas sûr de saisir.", "Pourrais-tu essayer avec d'autres mots ?"],
+    "reponses_avance": ["Je n'ai pas les informations pour répondre à cela. Peux-tu me donner plus de contexte ou poser la question différemment ?", "Ma base de connaissances est peut-être limitée sur ce sujet. Essayons d'aborder la question sous un autre angle."]
+  }
+}

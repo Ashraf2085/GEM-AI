@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Mon App IA</title>
+</head>
+<body>
+
+    <div class="app-layout">
+
+        <aside class="changement sidebar">
+            <div id="overlay"></div>
+            <button>Nouvelle conversation 🖋</button>
+            <button>⚙ Paramètres</button>
+            <a class="lien" href="/logout">
+            <button href = '/logout'>Déconnextion</button>
+            </a>
+        </aside>
+
+        <div class="changement_display changement main-content">
+          <div class="lien_select">
+                    <label for="mode">Mode de chat :</label>
+       <select id="mode" onchange="changerMode(this.value)">
+          <option value="rapide">Rapide ⚡</option>
+        <option value="avance">Avancé 🤖</option>
+          </select>
+                </div>
+            <button id="toggle-menu-btn">☰</button>
+
+            <main class="changement_display chat-area">
+                <div class="chat-messages" id="chat-messages">
+                </div>
+                
+                <div class="input-wrapper">
+                    <input type="text" name="input" id="input" placeholder="Posez votre question...">
+                    <div class="input-buttons">
+                        <button>💡</button>
+                        <button>📖</button>
+                        <button class="search-button">🔍</button>
+                    </div>
+                </div>
+            </main> </div> </div> <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
