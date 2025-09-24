@@ -55,7 +55,7 @@ overlay.addEventListener('click', () => {
 });
 
 function changerMode(mode) {
-    fetch("http://127.0.0.1:8001/set_mode", {
+    fetch("/set_mode", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
