@@ -1,2 +1,3 @@
 # GEM-AI
 Gem est une IA capable de parler grâce a des instructions donner et qui peut évolué vous pouvais directement aller au site avec l'adresse https://gem-ai-4vzy.onrender.com/
+Vous pouvais également vous inscrire !
