@@ -292,8 +292,7 @@ def getresponse():
 @app.route('/')
 def index():
     if 'email' not in session:
-        return redirect('/register')
-    return render_template('index.html')
+        return render_template('index.html')
 
 #-----------------se connecter-------------
 @app.route('/login', methods=['GET', 'POST'])
